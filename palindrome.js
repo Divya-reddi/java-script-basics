@@ -8,4 +8,5 @@ function isPalindrome(str){
      }
 }
 
-console.log(str, " is a palindrome : ", isPalindrome(str));
+//template literal -> ` -> string interpolation
+console.log(`${str} is a palindrome : ${isPalindrome(str)}`);
